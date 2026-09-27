@@ -1,0 +1,13 @@
+.venv/
+.idea/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Raw and processed datasets
+data/raw/*
+data/processed/*
+
+# Keep the folders themselves
+!data/raw/.gitkeep
+!data/processed/.gitkeep
