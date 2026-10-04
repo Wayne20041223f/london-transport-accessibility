@@ -11,3 +11,6 @@ data/processed/*
 # Keep the folders themselves
 !data/raw/.gitkeep
 !data/processed/.gitkeep
+
+# Environment variables and secrets
+.env
