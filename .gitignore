@@ -14,3 +14,6 @@ data/processed/*
 
 # Environment variables and secrets
 .env
+
+# Generated outputs
+outputs/*
