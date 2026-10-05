@@ -297,3 +297,11 @@ print(
 )
 
 print("\nNumber of rows:", len(final_accessibility))
+
+# Save the final accessibility dataset
+final_accessibility.to_file(
+    output_file,
+    driver="GPKG"
+)
+
+print(f"\nSaved final accessibility dataset to: {output_file}")
