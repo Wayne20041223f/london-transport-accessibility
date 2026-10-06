@@ -15,5 +15,20 @@ data/processed/*
 # Environment variables and secrets
 .env
 
-# Generated outputs
+# Ignore generated outputs by default
 outputs/*
+
+# Allow portfolio output folders
+!outputs/figures/
+!outputs/maps/
+
+# Ignore files inside these folders by default
+outputs/figures/*
+outputs/maps/*
+
+# Keep selected portfolio outputs
+!outputs/figures/tube_accessibility_distance.png
+!outputs/figures/median_tube_distance_by_imd_decile.png
+!outputs/figures/tube_distance_distribution_by_imd_decile.png
+!outputs/figures/priority_lsoa_percentage_by_borough.png
+!outputs/maps/priority_accessibility_inequality.png

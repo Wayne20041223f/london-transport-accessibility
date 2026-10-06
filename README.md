@@ -81,6 +81,30 @@ An LSOA is classified as a priority area when:
 
 This definition is intended as an exploratory analytical rule rather than an official policy classification.
 
+## Key Results
+
+### Tube Accessibility Across London
+
+Distance to the nearest Tube station varies substantially across London, with poorer Tube proximity particularly visible in parts of outer London.
+
+![Tube accessibility across London](outputs/figures/tube_accessibility_distance.png)
+
+### Accessibility and Deprivation
+
+To identify areas experiencing both socioeconomic disadvantage and poorer Tube proximity, V1 defines priority LSOAs as neighbourhoods in IMD deciles 1–3 that are more than 2 km from the nearest Tube station.
+
+![Priority accessibility and deprivation areas](outputs/maps/priority_accessibility_inequality.png)
+
+The analysis identifies **620 priority LSOAs**, representing **12.4% of London LSOAs**.
+
+### Borough-Level Comparison
+
+The concentration of priority LSOAs varies considerably between London boroughs.
+
+![Priority LSOA percentage by borough](outputs/figures/priority_lsoa_percentage_by_borough.png)
+
+Enfield has the highest share under this study-defined measure, with **49.7%** of its LSOAs classified as priority areas, followed by Lewisham (**39.4%**), Greenwich (**38.4%**) and Croydon (**35.4%**).
+
 ## Key Findings
 
 The V1 analysis identifies substantial spatial variation in Tube accessibility across London.
